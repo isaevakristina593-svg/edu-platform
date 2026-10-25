@@ -1,0 +1,7 @@
+.base {
+  color: blue;
+}
+
+.base:hover {
+  background-color: bisque;
+}

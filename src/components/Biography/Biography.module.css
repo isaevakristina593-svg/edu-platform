@@ -1,0 +1,82 @@
+.biographyCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.awardsButton {
+  padding: 12px 24px;
+  background-color: #9b59b6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.awardsButton:hover {
+  background-color: #8e44ad;
+  transform: translateY(-2px);
+}
+
+.awardsList {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.awardsList li {
+  padding: 10px;
+  margin: 8px 0;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #9b59b6;
+}
+
+/* Выделение первого элемента через псевдокласс */
+.awardsList li:first-child {
+  background: #d5f5e3;
+  border-left-color: #27ae60;
+  font-weight: bold;
+}
+
+.worksList {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.worksList li {
+  margin: 8px 0;
+  font-size: 1.05rem;
+}
